@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+	background-color: #000000;
+}
+
+.timer {
+	font-size: 100px;
+	font-weight: bold;
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+button {
+	padding: 10px 15px;
+	color: #fff;
+	border: inherit;
+	border-radius: 5px;
+	cursor: pointer;
+	background-color: indigo;
+	font-size: 22px;
+}
+
+button:hover {
+	outline: 1px solid #fff;
+}
